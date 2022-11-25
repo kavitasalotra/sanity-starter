@@ -7,6 +7,8 @@ A starting point using ReactJs, bundled with awesome NextJs.
 - [Next.js](https://nextjs.org/)
 - [React.js](https://facebook.github.io/react/)
 - [MongoDB cloud](https://cloud.mongodb.com)
+- [Es-Lint](https://eslint.com)
+
 
 ## To use
 
@@ -37,17 +39,4 @@ To deploy to zeit(vercel) now host
 yarn deploy
 ```
 
-### Test On Insomia
 
-```
-```
-
-- add the endpoint for eg:-  <<http://localhost:3000/api/hero>> on playground server
-
-the add the JSON Data accoundingly method.
-<!--
-{
-  "superHero": "Spiderman",
-  "realName": "John Smith"
-}
- -->
