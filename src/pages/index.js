@@ -6,10 +6,7 @@ import Hero from '../components/home/Hero';
 function Index({ heros }) {
   return (
     <Layout>
-      <NextSeo
-        title="Super Hero"
-        description="Super heros in the world"
-      />
+      <NextSeo title="Super Hero" description="Super heros in the world" />
       <Hero data={heros} />
     </Layout>
   );
