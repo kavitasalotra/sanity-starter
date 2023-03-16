@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 
 function Header() {
@@ -7,14 +8,16 @@ function Header() {
         <div className="flex w-0 flex-1 lg:hidden">
           <button
             className="rounded-full bg-gray-100 p-2 text-gray-600"
-            type="button">
+            type="button"
+          >
             <span className="sr-only">Account</span>
             <svg
               className="h-5 w-5"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg">
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                 strokeLinecap="round"
@@ -28,13 +31,15 @@ function Header() {
         <div className="flex w-0 flex-1 justify-end lg:hidden">
           <button
             className="rounded-full bg-gray-100 p-2 text-gray-500"
-            type="button">
+            type="button"
+          >
             <span className="sr-only">Menu</span>
             <svg
               className="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 clipRule="evenodd"
                 d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
@@ -46,7 +51,8 @@ function Header() {
 
         <nav
           aria-label="Site Nav"
-          className="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1">
+          className="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
+        >
           <a className="text-gray-900" href="/">
             About
           </a>
@@ -76,13 +82,15 @@ function Header() {
 
               <button
                 type="submit"
-                className="absolute inset-y-0 right-0 rounded-r-lg p-2 text-gray-600">
+                className="absolute inset-y-0 right-0 rounded-r-lg p-2 text-gray-600"
+              >
                 <span className="sr-only">Submit Search</span>
                 <svg
                   className="h-5 w-5"
                   fill="currentColor"
                   viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     clipRule="evenodd"
                     d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
@@ -97,13 +105,15 @@ function Header() {
         <div className="hidden items-center gap-4 lg:flex">
           <a
             href="/"
-            className="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-600">
+            className="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-600"
+          >
             Log in
           </a>
 
           <a
             href="/"
-            className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white">
+            className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white"
+          >
             Sign up
           </a>
         </div>
