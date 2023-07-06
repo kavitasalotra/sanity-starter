@@ -4,7 +4,7 @@ function Button({ children, className }) {
   return (
     <button
       type="button"
-      className={`inline-block rounded border border-brand ${className} text-base font-medium text-textGray hover:bg-brand focus:outline-none focus:ring active:bg-brand`}>
+      className={`inline-block rounded border px-3 py-2 border-white ${className} text-base font-medium text-white  focus:outline-none focus:ring active:bg-brand`}>
       {children}
     </button>
   );

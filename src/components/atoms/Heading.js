@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Heading({ children, hasTextLarge }) {
+function Heading({ children }) {
   return (
     <h1
-      className={`${
-        hasTextLarge ? 'text-6xl' : 'text-4xl'
-      } font-bold text-brand tracking-normal`}>
+      className="font-bold text-white md:text-5xl text-xl tracking-normal">
       {children}
     </h1>
   );

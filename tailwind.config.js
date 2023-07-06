@@ -7,12 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: '#7c2c0c',
-        textGray: '#535353', // ADD YOUR COLOR CODE HERE
+        brand: '#3a3d45',
+        textGray: '#666666', // ADD YOUR COLOR CODE HERE
         textGrayLite: '#878585',
-        textLight: '#fcfcfc',
-        backgroundLite: '#fae6c4',
-        backgroundDark: '#100703',
+        textLight: '#ffffff',
+        // backgroundLite: '#fae6c4',
+        // backgroundDark: '#100703',
       },
     },
   },

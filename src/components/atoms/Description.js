@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Description({ children, textBrand }) {
+function Description({ children, textBrand,className }) {
   return (
     <p
-      className={`text-base ${
-        textBrand ? 'text-brand font-bold' : 'text-textGray'
+      className={`md:text-base text-xs ${className} ${
+        textBrand ? 'text-brand font-normal' : 'text-white'
       } font-normal `}>
       {children}
     </p>
